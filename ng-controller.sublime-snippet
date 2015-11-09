@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+(function() {
+
+  'use strict';
+
+  angular
+    .module('${1:app}')
+    .controller('${2:Controller}Controller', Controller);
+
+  Controller.\$inject = [
+
+  ];
+
+  function Controller(
+
+  ) {
+
+    var vm = this;
+
+    return vm;
+
+  }
+
+})();
+
+]]></content>
+  <tabTrigger>ng-controller</tabTrigger>
+</snippet>
