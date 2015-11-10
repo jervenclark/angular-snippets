@@ -17,6 +17,8 @@ A collection of [Sublime Text](http://www.sublimetext.com/) snippets
 
 ## Installation
 
+[Top](#table-of-contents)
+
 Simply checkout the source code into Sublime Text's packages
 directory. The location is system specific specific
 
@@ -41,21 +43,26 @@ directory. The location is system specific specific
 
 ##### *Angular Component Bindings*
 
-| Snippet               | Binding               |
-| --------------------- | --------------------- |
-| Config                | ng-configuration      |
-| Constant              | ng-constant           |
-| Controller            | ng-controller         |
-| Directive             | ng-directive          |
-| Factory               | ng-factory            |
-| Filter                | ng-filter             |
-| Run                   | ng-run                |
-| Service               | ng-service            |
-| Value                 | ng-value              |
+[Top](#table-of-contents)
+
+| Snippet                                 | Binding          |
+| --------------------------------------- | ---------------- |
+| [Configuration](#angular-configuration) | ng-configuration |
+| [Constant](#angular-constant)           | ng-constant      |
+| [Controller](#angular-controller)       | ng-controller    |
+| [Directive](#angular-directive)         | ng-directive     |
+| [Factory](#angular-factory)             | ng-factory       |
+| [Filter](#angular-filter)               | ng-filter        |
+| [Run](#angular-run)                     | ng-run           |
+| [Service](#angular-service)             | ng-service       |
+| [Value](#angular-service)               | ng-value         |
 
 ##### *Angular Components*
 
 ###### Angular Configuration
+
+[Top](#table-of-contents) |
+[Angular Bindings](#angular-component-bindings)
 
     (function() {
 
@@ -81,6 +88,9 @@ directory. The location is system specific specific
 
 ###### Angular Constant
 
+[Top](#table-of-contents) |
+[Angular Bindings](#angular-component-bindings)
+
     (function() {
 
       'use strict';
@@ -92,6 +102,9 @@ directory. The location is system specific specific
     })();
 
 ###### Angular Controller
+
+[Top](#table-of-contents) |
+[Angular Bindings](#angular-component-bindings)
 
     (function() {
 
@@ -121,6 +134,9 @@ directory. The location is system specific specific
 
 ###### Angular Directive
 
+[Top](#table-of-contents) |
+[Angular Bindings](#angular-component-bindings)
+
     (function() {
 
       'use strict';
@@ -149,6 +165,9 @@ directory. The location is system specific specific
     })();
 
 ###### Angular Factory
+
+[Top](#table-of-contents) |
+[Angular Bindings](#angular-component-bindings)
 
     (function() {
 
@@ -186,6 +205,9 @@ directory. The location is system specific specific
 
 ###### Angular Filter
 
+[Top](#table-of-contents) |
+[Angular Bindings](#angular-component-bindings)
+
     (function() {
 
       'use strict';
@@ -207,6 +229,9 @@ directory. The location is system specific specific
     })();
 
 ###### Angular Run
+
+[Top](#table-of-contents) |
+[Angular Bindings](#angular-component-bindings)
 
     (function() {
 
@@ -231,6 +256,9 @@ directory. The location is system specific specific
     })();
 
 ###### Angular Service
+
+[Top](#table-of-contents) |
+[Angular Bindings](#angular-component-bindings)
 
     (function() {
 
@@ -268,6 +296,9 @@ directory. The location is system specific specific
 
 ###### Angular Value
 
+[Top](#table-of-contents) |
+[Angular Bindings](#angular-component-bindings)
+
     (function() {
 
       'use strict';
@@ -281,6 +312,8 @@ directory. The location is system specific specific
 #### Javascript Snippets
 
 ##### *Javascript Basic Bindings*
+
+[Top](#table-of-contents)
 
 | Snippet               | Binding               |
 | --------------------- | --------------------- |
@@ -297,6 +330,9 @@ directory. The location is system specific specific
 
 ###### Javascript Anonymous Function
 
+[Top](#table-of-contents) |
+[Javascript Basic Bindings](#javascript-basic-bindings)
+
     function (args) {
 
         // body...
@@ -305,6 +341,9 @@ directory. The location is system specific specific
 
 ###### Javascript For Each
 
+[Top](#table-of-contents) |
+[Javascript Basic Bindings](#javascript-basic-bindings)
+
     array.forEach(function(element) {
 
         // body...
@@ -312,6 +351,9 @@ directory. The location is system specific specific
     });
 
 ###### Javascript For In
+
+[Top](#table-of-contents) |
+[Javascript Basic Bindings](#javascript-basic-bindings)
 
     for (var property in object) {
 
@@ -323,6 +365,9 @@ directory. The location is system specific specific
 
 ###### Javascript For Loop
 
+[Top](#table-of-contents) |
+[Javascript Basic Bindings](#javascript-basic-bindings)
+
     for (i = 0, len = array.length; i < len; i++) {
 
       // body...
@@ -331,6 +376,9 @@ directory. The location is system specific specific
 
 ###### Javascript Function
 
+[Top](#table-of-contents) |
+[Javascript Basic Bindings](#javascript-basic-bindings)
+
     function methodName (args) {
 
         // body...
@@ -338,6 +386,9 @@ directory. The location is system specific specific
     }
 
 ###### Javascript Immediately Invoked Function Expression
+
+[Top](#table-of-contents) |
+[Javascript Basic Bindings](#javascript-basic-bindings)
 
     (function(){
 
@@ -349,6 +400,9 @@ directory. The location is system specific specific
 
 ###### Javascript Object Keys
 
+[Top](#table-of-contents) |
+[Javascript Basic Bindings](#javascript-basic-bindings)
+
     Object.keys(object).forEach(function (key) {
 
         // body...
@@ -357,6 +411,9 @@ directory. The location is system specific specific
 
 ###### Javascript Prototype Function
 
+[Top](#table-of-contents) |
+[Javascript Basic Bindings](#javascript-basic-bindings)
+
     ClassName.prototype.methodName = function(args) {
 
         // body...
@@ -364,6 +421,8 @@ directory. The location is system specific specific
     };
 
 ##### *Javascript Pattern Bindings*
+
+[Top](#table-of-contents)
 
 | Snippet               | Binding               |
 | --------------------- | --------------------- |
@@ -375,6 +434,9 @@ directory. The location is system specific specific
 ##### *Javascript Patterns*
 
 ###### Javascript Constructor Pattern
+
+[Top](#table-of-contents) |
+[Javascript Basic Bindings](#javascript-pattern-bindings)
 
     var ConstructorName = (function() {
 
@@ -403,6 +465,9 @@ directory. The location is system specific specific
 
 ###### Javascript Module Pattern
 
+[Top](#table-of-contents) |
+[Javascript Basic Bindings](#javascript-pattern-bindings)
+
     var moduleName = (function() {
 
       'use strict';
@@ -420,6 +485,9 @@ directory. The location is system specific specific
     }());
 
 ###### Javascript Singleton Pattern
+
+[Top](#table-of-contents) |
+[Javascript Basic Bindings](#javascript-pattern-bindings)
 
     var singletonName = (function() {
 
@@ -445,6 +513,9 @@ directory. The location is system specific specific
 
 ###### Javascript Namespace Pattern
 
+[Top](#table-of-contents) |
+[Javascript Basic Bindings](#javascript-pattern-bindings)
+
     (function(namespace) {
 
       'use strict';
@@ -459,11 +530,16 @@ directory. The location is system specific specific
 
 
 ## Author
+
+[Top](#table-of-contents)
+
 email: [jech@boolex.com](jech@boolex.com) <br />
 twitter.com: [@jervenclark](http://twitter.com/jervenclark) <br />
 github: [github.com/jervenclark](https://github.com/jervenclark) <br />
 
 ## License
+
+[Top](#table-of-contents)
 
 Released under the [MIT License (MIT)](http://opensource.org/licenses/MIT)
 
