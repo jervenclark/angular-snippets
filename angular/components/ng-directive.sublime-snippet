@@ -17,7 +17,7 @@
   ) {
 
     var directive = {
-      templateUrl: '/templates/$1/$2.tpl.html',
+      templateUrl: '/templates/${2/(.*)/\L\1\E/i}.tpl.html',
       restrict: 'E'
     };
 
