@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+var ${1:moduleName} = (function() {
+
+  'use strict';
+
+  var ${1:privateVar} = '';
+
+  var $1 = {
+
+    init: {
+      ${2:// initialize}
+    }
+
+  }
+
+  return $1;
+
+}());
+
+]]></content>
+  <tabTrigger>js-module</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

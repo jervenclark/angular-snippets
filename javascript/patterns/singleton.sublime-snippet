@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+var ${1:singletonName} = (function() {
+
+  'use strict';
+
+  var instance;
+
+  $1 = function() {
+
+    if (instance) {
+      return instance;
+    }
+
+    instance = this;
+
+    ${2:// singleton body}
+
+  };
+
+  return $1;
+
+}());
+
+]]></content>
+  <tabTrigger>js-singleton</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
