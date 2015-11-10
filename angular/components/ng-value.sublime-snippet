@@ -6,7 +6,7 @@
 
   angular
     .module('${1:app}')
-    .value('${2:value}', ${3:value});
+    .value('${2:value}', '${3:value}');
 
 })();
 

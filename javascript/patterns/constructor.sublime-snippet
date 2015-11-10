@@ -4,7 +4,7 @@ var ${1:ConstructorName} = (function() {
 
   'use strict';
 
-  function $1(${2:arguments}) {
+  function $1(${2:args}) {
 
     // enforces new
     if (!(this instanceof $1)) {
@@ -15,11 +15,11 @@ var ${1:ConstructorName} = (function() {
 
   }
 
-  $1.prototype.${4} = function(${5:arguments}) {
+  $1.prototype.${4:methodName} = function(${5:args}) {
 
     ${6:// method body}
 
-  }
+  };
 
   return $1;
 

@@ -1,7 +1,19 @@
-Sublime Snippets
-===
+# Sublime Snippets
 
 A collection of [Sublime Text](http://www.sublimetext.com/) snippets
+
+## Table of Contents
+
+[Installation](#installation)
+[Snippet List and Bindings](#snippet-list-and-bindings)
+  - [Angular Snippets](#angular-snippets)
+    - [Component Bindings](#angular-component-bindings)
+    - [Components](#angular-components)
+  - [Javascript Snippets](#javascript-snippets)
+    - [Basic Bindings](#javascript-basic-bindings)
+    - [Basics](#javascript-basics)
+    - [Pattern Bindings](#javascript-pattern-bindings)
+    - [Patterns](#javascript-patterns)
 
 ## Installation
 
@@ -27,7 +39,7 @@ directory. The location is system specific specific
 
 #### Angular Snippets
 
-##### *Components*
+##### *Angular Component Bindings*
 
 | Snippet               | Binding               |
 | --------------------- | --------------------- |
@@ -41,9 +53,234 @@ directory. The location is system specific specific
 | Service               | ng-service            |
 | Value                 | ng-value              |
 
-#### Javascript
+##### *Angular Components*
 
-##### *Basics*
+###### Angular Configuration
+
+    (function() {
+
+      'use strict';
+
+      angular
+        .module('app')
+        .config(Configuration);
+
+      Configuration.$inject = [
+
+      ];
+
+      function Configuration(
+
+      ) {
+
+        // function body
+
+      }
+
+    })();
+
+###### Angular Constant
+
+    (function() {
+
+      'use strict';
+
+      angular
+        .module('app')
+        .value('constant', 'value');
+
+    })();
+
+###### Angular Controller
+
+    (function() {
+
+      'use strict';
+
+      angular
+        .module('app')
+        .controller('controllerController', Controller);
+
+      Controller.$inject = [
+
+      ];
+
+      function Controller(
+
+      ) {
+
+        var vm = this;
+
+        vm.property = 'value';
+
+        return vm;
+
+      }
+
+    })();
+
+###### Angular Directive
+
+    (function() {
+
+      'use strict';
+
+      angular
+        .module('app')
+        .directive('appComponent', Directive);
+
+      Directive.$inject = [
+
+      ];
+
+      function Directive(
+
+      ) {
+
+        var directive = {
+          templateUrl: '/templates/component.tpl.html',
+          restrict: 'E'
+        };
+
+        return directive;
+
+      }
+
+    })();
+
+###### Angular Factory
+
+    (function() {
+
+      'use strict';
+
+      angular
+        .module('app')
+        .factory('factoryFactory', Factory);
+
+      Factory.$inject = [
+
+      ];
+
+      function Factory(
+
+      ) {
+
+        var factory;
+
+        factory = {
+          property: property
+        };
+
+        return factory;
+
+        function property() {
+
+          // function body
+
+        }
+
+      }
+
+    })();
+
+###### Angular Filter
+
+    (function() {
+
+      'use strict';
+
+      angular
+        .module('app')
+        .filter('filterFilter', Filter);
+
+      Filter.$inject = [];
+
+      function Filter() {
+
+        return function(args) {
+          return true;
+        };
+
+      }
+
+    })();
+
+###### Angular Run
+
+    (function() {
+
+      'use strict';
+
+      angular
+        .module('app')
+        .run(Run);
+
+      Run.$inject = [
+
+      ];
+
+      function Run(
+
+      ) {
+
+        // function body
+
+      }
+
+    })();
+
+###### Angular Service
+
+    (function() {
+
+      'use strict';
+
+      angular
+        .module('app')
+        .service('serviceService', Service);
+
+      Service.$inject = [
+
+      ];
+
+      function Service(
+
+      ) {
+
+        var service;
+
+        service = {
+          property: property
+        };
+
+        return service;
+
+        function property() {
+
+          // function body
+
+        }
+
+      }
+
+    })();
+
+###### Angular Value
+
+    (function() {
+
+      'use strict';
+
+      angular
+        .module('app')
+        .value('value', 'value');
+
+    })();
+
+#### Javascript Snippets
+
+##### *Javascript Basic Bindings*
 
 | Snippet               | Binding               |
 | --------------------- | --------------------- |
@@ -56,7 +293,77 @@ directory. The location is system specific specific
 | Object Keys           | js-object-keys        |
 | Prototype             | js-prototype-function |
 
-##### *Patterns*
+##### *Javascript Basic Binding*
+
+###### Javascript Anonymous Function
+
+    function (args) {
+
+        // body...
+
+    }
+
+###### Javascript For Each
+
+    array.forEach(function(element) {
+
+        // body...
+
+    });
+
+###### Javascript For In
+
+    for (var property in object) {
+
+      if (object.hasOwnProperty(property)) {
+        // body...
+      }
+
+    }
+
+###### Javascript For Loop
+
+    for (i = 0, len = array.length; i < len; i++) {
+
+      // body...
+
+    }
+
+###### Javascript Function
+
+    function methodName (args) {
+
+        // body...
+
+    }
+
+###### Javascript Immediately Invoked Function Expression
+
+    (function(){
+
+      'use strict';
+
+      // body
+
+    })();
+
+###### Javascript Object Keys
+
+    Object.keys(object).forEach(function (key) {
+
+        // body...
+
+    });
+
+###### Javascript Prototype Function
+
+    ClassName.prototype.methodName = function(args) {
+
+        // body...
+
+    };
+
+##### *Javascript Pattern Bindings*
 
 | Snippet               | Binding               |
 | --------------------- | --------------------- |
@@ -64,6 +371,91 @@ directory. The location is system specific specific
 | Module                | js-module             |
 | Namespace             | js-namespace          |
 | Singleton             | js-singleton          |
+
+##### *Javascript Patterns*
+
+###### Javascript Constructor Pattern
+
+    var ConstructorName = (function() {
+
+      'use strict';
+
+      function ConstructorName(args) {
+
+        // enforces new
+        if (!(this instanceof ConstructorName)) {
+            return new ConstructorName();
+        }
+
+        // constructor body
+
+      }
+
+      ConstructorName.prototype.methodName = function(args) {
+
+        // method body
+
+      };
+
+      return ConstructorName;
+
+    }());
+
+###### Javascript Module Pattern
+
+    var moduleName = (function() {
+
+      'use strict';
+
+      var moduleName = {
+
+        init: {
+          // initialize
+        }
+
+      };
+
+      return moduleName;
+
+    }());
+
+###### Javascript Singleton Pattern
+
+    var singletonName = (function() {
+
+      'use strict';
+
+      var instance;
+
+      singletonName = function() {
+
+        if (instance) {
+          return instance;
+        }
+
+        instance = this;
+
+        // singleton body
+
+      };
+
+      return singletonName;
+
+    }());
+
+###### Javascript Namespace Pattern
+
+    (function(namespace) {
+
+      'use strict';
+
+      namespace.method = function() {
+
+        // function body
+
+      };
+
+    })(window.namespace = window.namespace || {});
 
 
 ## Author

@@ -12,7 +12,7 @@
 
   function Filter() {
 
-    return function(${3:arguments}) {
+    return function(${3:args}) {
       return true;
     };
 

@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-function (${1:arguments}) {
+function (${1:args}) {
 
     ${0:// body...}
 

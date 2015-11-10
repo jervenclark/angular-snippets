@@ -18,7 +18,7 @@
 
     var vm = this;
 
-    vm.${3:property} = ${4:value}
+    vm.${3:property} = '${4:value}';
 
     return vm;
 
