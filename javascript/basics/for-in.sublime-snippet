@@ -1,11 +1,13 @@
 <snippet>
   <content><![CDATA[
-Object.keys(${1:obj}).forEach(function (key) {
+for (var prop in ${1:obj}) {
 
+  if ($1.hasOwnProperty(prop)) {
     ${0:// body...}
+  }
 
-})
+}
 ]]></content>
-  <tabTrigger>okfn</tabTrigger>
+  <tabTrigger>js-for-in</tabTrigger>
   <scope>source.js</scope>
 </snippet>

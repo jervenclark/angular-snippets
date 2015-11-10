@@ -6,6 +6,6 @@
 
 })();
 ]]></content>
-  <tabTrigger>iifn</tabTrigger>
+  <tabTrigger>js-iife</tabTrigger>
   <scope>source.js</scope>
 </snippet>
