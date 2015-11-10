@@ -1,12 +1,12 @@
 <snippet>
   <content><![CDATA[
-function ${1:methodName} (${2:arguments}) {
+${1:arr}.forEach(function(${2:elem}) {
 
     ${0:// body...}
 
-}
+});
 
 ]]></content>
-  <tabTrigger>js-function</tabTrigger>
+  <tabTrigger>js-for-each</tabTrigger>
   <scope>source.js</scope>
 </snippet>

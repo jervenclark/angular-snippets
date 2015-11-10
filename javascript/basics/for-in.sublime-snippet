@@ -1,12 +1,13 @@
 <snippet>
   <content><![CDATA[
-for (var prop in ${1:obj}) {
+for (var ${1:prop} in ${2:obj}) {
 
-  if ($1.hasOwnProperty(prop)) {
+  if ($2.hasOwnProperty($1)) {
     ${0:// body...}
   }
 
 }
+
 ]]></content>
   <tabTrigger>js-for-in</tabTrigger>
   <scope>source.js</scope>

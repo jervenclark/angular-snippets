@@ -5,6 +5,7 @@
   'use strict';
 
 })();
+
 ]]></content>
   <tabTrigger>js-iife</tabTrigger>
   <scope>source.js</scope>
