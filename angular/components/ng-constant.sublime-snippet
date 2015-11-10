@@ -6,11 +6,11 @@
 
   angular
     .module('${1:app}')
-    .value('$2', $3);
+    .value('${2:constant}', ${3:value});
 
 })();
 
 ]]></content>
-  <tabTrigger>ng-constants</tabTrigger>
+  <tabTrigger>ng-constant</tabTrigger>
   <scope>source.js</scope>
 </snippet>

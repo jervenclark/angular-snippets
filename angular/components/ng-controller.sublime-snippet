@@ -6,7 +6,7 @@
 
   angular
     .module('${1:app}')
-    .controller('${2:Controller}Controller', Controller);
+    .controller('${2:controller}Controller', Controller);
 
   Controller.\$inject = [
 
@@ -17,6 +17,8 @@
   ) {
 
     var vm = this;
+
+    vm.${3:property} = ${4:value}
 
     return vm;
 

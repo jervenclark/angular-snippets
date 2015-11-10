@@ -19,12 +19,12 @@
     var factory;
 
     factory = {
-      save: save
+      $3: $3
     };
 
     return factory;
 
-    function save() {
+    function ${3:property}() {
 
       ${0:// function body}
 

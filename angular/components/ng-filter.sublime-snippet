@@ -6,14 +6,14 @@
 
   angular
     .module('${1:app}')
-    .filter('${2:filter}', Filter);
+    .filter('${2:filter}Filter', Filter);
 
   Filter.\$inject = [];
 
   function Filter() {
 
-    return function(obj) {
-      return obj;
+    return function(${3:arguments}) {
+      return true;
     };
 
   }
