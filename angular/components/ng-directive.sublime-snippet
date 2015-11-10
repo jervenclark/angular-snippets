@@ -6,7 +6,7 @@
 
   angular
     .module('${1:app}')
-    .directive('$1${2:Directive}', Directive);
+    .directive('$1${2/(^|-)(.?)/\U\2\E/g}', Directive);
 
   Directive.\$inject = [
 
@@ -17,7 +17,7 @@
   ) {
 
     var directive = {
-      templateUrl: '/templates/${2/(.*)/\L\1\E/i}.tpl.html',
+      templateUrl: '/templates/${2:component}.tpl.html',
       restrict: 'E'
     };
 
@@ -29,5 +29,4 @@
 
 ]]></content>
   <tabTrigger>ng-directive</tabTrigger>
-  <scope>source.js</scope>
 </snippet>
