@@ -1,0 +1,56 @@
+<snippet>
+  <content><![CDATA[
+(function() {
+
+  'use strict';
+
+  angular
+    .module('hoeringdk')
+    .config(Configuration);
+
+  Configuration.$inject = [
+    'usSpinnerConfigProvider',
+  ];
+
+  function Configuration(
+    usSpinnerConfigProvider
+  ) {
+
+    // Default Spinner
+    usSpinnerConfigProvider.setDefaults({
+      lines: 17,
+      length: 28,
+      width: 5,
+      radius: 20,
+      scale: 0.45,
+      corners: 1,
+      color: '#000',
+      opacity: 0.1,
+      rotate: 0,
+      direction: 1,
+      speed: 1,
+      trail: 85,
+      fps: 20,
+      zIndex: 2e9,
+      className: 'spinner',
+      top: '50%',
+      left: '50%',
+      shadow: false,
+      hwaccel: false,
+      position: 'absolute'
+    });
+
+    // Spinner Theme
+    usSpinnerConfigProvider.setTheme('bigBlue', {
+      color: 'blue'
+    });
+
+
+  }
+
+})();
+
+]]></content>
+  <tabTrigger>spinner</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
