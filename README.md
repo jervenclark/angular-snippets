@@ -4,30 +4,76 @@ Sublime Snippets
 A collection of [Sublime Text](http://www.sublimetext.com/) snippets
 
 ## Installation
-- - -
+
 Simply checkout the source code into Sublime Text's packages
 directory. The location is system specific specific
 
-### For OSX
+#### For OSX
 
     $ cd ~/Library/Application\ Support/Sublime\ Text\ 2/Packages/
     $ git clone git://github.com/matthewrobertson/ERB-Sublime-Snippets.git ERB_Snippets
-### For Windows
+
+#### For Windows
 
     $ cd %APPDATA%/Sublime Text 2/Packages/
     $ git clone git://github.com/matthewrobertson/ERB-Sublime-Snippets.git ERB_Snippets
 
-### For Linux
+#### For Linux
 
     $ cd ~/.Sublime Text 2/Packages/
     $ git clone git://github.com/matthewrobertson/ERB-Sublime-Snippets.git ERB_Snippets
 
 ## Snippet List and Bindings
-to-do
+
+#### Angular Snippets
+
+##### *Components*
+
+| Snippet               | Binding               |
+| --------------------- | --------------------- |
+| Config                | ng-configuration      |
+| Constant              | ng-constant           |
+| Controller            | ng-controller         |
+| Directive             | ng-directive          |
+| Factory               | ng-factory            |
+| Filter                | ng-filter             |
+| Run                   | ng-run                |
+| Service               | ng-service            |
+| Value                 | ng-value              |
+
+#### Javascript
+
+##### *Basics*
+
+| Snippet               | Binding               |
+| --------------------- | --------------------- |
+| Anonymous Function    | js-anonymous-function |
+| For Each              | js-for-each           |
+| For In                | js-for-in             |
+| For Loop              | js-for-loop           |
+| Function              | js-function           |
+| Immediately Invoked   | js-iife               |
+| Object Keys           | js-object-keys        |
+| Prototype             | js-prototype-function |
+
+##### *Patterns*
+
+| Snippet               | Binding               |
+| --------------------- | --------------------- |
+| Constructor           | js-contructor         |
+| Module                | js-module             |
+| Namespace             | js-namespace          |
+| Singleton             | js-singleton          |
+
+
+## Author
+email: [jech@boolex.com](jech@boolex.com) <br />
+twitter.com: [@jervenclark](http://twitter.com/jervenclark) <br />
+github: [github.com/jervenclark](https://github.com/jervenclark) <br />
 
 ## License
 
-Released under The [MIT License (MIT)](http://opensource.org/licenses/MIT)
+Released under the [MIT License (MIT)](http://opensource.org/licenses/MIT)
 
 Copyright (c) 2014 Geekhero
 
