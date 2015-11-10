@@ -7,4 +7,5 @@
 })();
 ]]></content>
   <tabTrigger>fn</tabTrigger>
+  <scope>source.js</scope>
 </snippet>
