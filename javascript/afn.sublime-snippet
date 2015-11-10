@@ -1,11 +1,11 @@
 <snippet>
   <content><![CDATA[
-(function(){
+function (${1:arguments}) {
 
-  'use strict';
+    ${0:// body...}
 
-})();
+}
 ]]></content>
-  <tabTrigger>iifn</tabTrigger>
+  <tabTrigger>afn</tabTrigger>
   <scope>source.js</scope>
 </snippet>
