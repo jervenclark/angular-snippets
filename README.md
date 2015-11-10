@@ -4,16 +4,18 @@ A collection of [Sublime Text](http://www.sublimetext.com/) snippets
 
 ## Table of Contents
 
-[Installation](#installation)
-[Snippet List and Bindings](#snippet-list-and-bindings)
-  - [Angular Snippets](#angular-snippets)
-    - [Component Bindings](#angular-component-bindings)
-    - [Components](#angular-components)
-  - [Javascript Snippets](#javascript-snippets)
-    - [Basic Bindings](#javascript-basic-bindings)
-    - [Basics](#javascript-basics)
-    - [Pattern Bindings](#javascript-pattern-bindings)
-    - [Patterns](#javascript-patterns)
+  - [Installation](#installation)
+  - [Snippet List and Bindings](#snippet-list-and-bindings)
+    - [Angular Snippets](#angular-snippets)
+      - [Component Bindings](#angular-component-bindings)
+      - [Component Snippets List](#angular-component-snippets-list)
+    - [Javascript Snippets](#javascript-snippets)
+      - [Basic Bindings](#javascript-basic-bindings)
+      - [Basic Snippets List](#javascript-basic-component-snippets-list)
+      - [Pattern Bindings](#javascript-pattern-bindings)
+      - [Pattern Snippets List](#javascript-pattern-component-snippets-list)
+  - [Author](#author)
+  - [License](#license)
 
 ## Installation
 
@@ -57,7 +59,7 @@ directory. The location is system specific specific
 | [Service](#angular-service)             | ng-service       |
 | [Value](#angular-service)               | ng-value         |
 
-##### *Angular Components*
+##### *Angular Component Snippets List*
 
 ###### Angular Configuration
 
@@ -326,7 +328,7 @@ directory. The location is system specific specific
 | [Object Keys](#javascript-object-keys)               | js-object-keys        |
 | [Prototype](#javascript-prototype-function)          | js-prototype-function |
 
-##### *Javascript Basic Binding*
+##### *Javascript Basic Snippets List*
 
 ###### Javascript Anonymous Function
 
@@ -431,7 +433,7 @@ directory. The location is system specific specific
 | [Namespace](#javascript-namespace-pattern)     | js-namespace  |
 | [Singleton](#javascript-singleton-pattern)     | js-singleton  |
 
-##### *Javascript Patterns*
+##### *Javascript Pattern Snippets List*
 
 ###### Javascript Constructor Pattern
 
