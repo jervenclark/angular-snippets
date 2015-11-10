@@ -21,6 +21,6 @@
 })();
 
 ]]></content>
-  <tabTrigger>ng-configuration</tabTrigger>
+  <tabTrigger>ng-run</tabTrigger>
   <scope>source.js</scope>
 </snippet>
