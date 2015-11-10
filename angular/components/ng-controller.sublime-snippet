@@ -26,4 +26,5 @@
 
 ]]></content>
   <tabTrigger>ng-controller</tabTrigger>
+  <scope>source.js</scope>
 </snippet>

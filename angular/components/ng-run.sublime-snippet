@@ -22,4 +22,5 @@
 
 ]]></content>
   <tabTrigger>ng-configuration</tabTrigger>
+  <scope>source.js</scope>
 </snippet>

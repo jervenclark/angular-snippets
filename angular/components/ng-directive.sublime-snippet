@@ -29,4 +29,5 @@
 
 ]]></content>
   <tabTrigger>ng-directive</tabTrigger>
+  <scope>source.js</scope>
 </snippet>

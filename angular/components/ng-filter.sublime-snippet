@@ -22,4 +22,5 @@
 
 ]]></content>
   <tabTrigger>ng-filter</tabTrigger>
+  <scope>source.js</scope>
 </snippet>
