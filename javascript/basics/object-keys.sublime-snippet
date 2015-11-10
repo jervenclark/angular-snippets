@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-Object.keys(${1:obj}).forEach(function (key) {
+Object.keys(${1:object}).forEach(function (key) {
 
     ${0:// body...}
 

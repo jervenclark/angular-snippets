@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-for (i = 0, len = ${1:arr}.length; i < len; i++) {
+for (i = 0, len = ${1:array}.length; i < len; i++) {
 
   ${0:// body...}
 

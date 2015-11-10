@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+(function(${1:namespace}) {
+
+  'use strict';
+
+  $1.${2:method} = function() {
+
+    ${0:// function body}
+
+  };
+
+})(window.$1 = window.$1 || {});
+
+]]></content>
+  <tabTrigger>js-namespace</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

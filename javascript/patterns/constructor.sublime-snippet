@@ -4,20 +4,20 @@ var ${1:ConstructorName} = (function() {
 
   'use strict';
 
-  function $1(${2:arg1}, ${3:arg2}) {
+  function $1(${2:arguments}) {
 
     // enforces new
     if (!(this instanceof $1)) {
         return new $1();
     }
 
-    ${4:// constructor body}
+    ${3:// constructor body}
 
   }
 
-  $1.prototype.${5} = function(${6:arg}) {
+  $1.prototype.${4} = function(${5:arguments}) {
 
-    ${7:// method body}
+    ${6:// method body}
 
   }
 

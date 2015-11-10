@@ -26,6 +26,8 @@
 
     function save() {
 
+      ${0:// function body}
+
     }
 
   }

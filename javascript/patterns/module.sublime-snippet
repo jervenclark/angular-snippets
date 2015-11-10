@@ -4,7 +4,7 @@ var ${1:moduleName} = (function() {
 
   'use strict';
 
-  var ${1:privateVar} = '';
+  var ${1:property} = '';
 
   var $1 = {
 
