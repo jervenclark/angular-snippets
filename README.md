@@ -315,16 +315,16 @@ directory. The location is system specific specific
 
 [Top](#table-of-contents)
 
-| Snippet               | Binding               |
-| --------------------- | --------------------- |
-| Anonymous Function    | js-anonymous-function |
-| For Each              | js-for-each           |
-| For In                | js-for-in             |
-| For Loop              | js-for-loop           |
-| Function              | js-function           |
-| Immediately Invoked   | js-iife               |
-| Object Keys           | js-object-keys        |
-| Prototype             | js-prototype-function |
+| Snippet                                              | Binding               |
+| ---------------------------------------------------- | --------------------- |
+| [Anonymous Function](#javascript-anonymous-function) | js-anonymous-function |
+| [For Each](#javascript-for-each)                     | js-for-each           |
+| [For In](#javascript-for-in)                         | js-for-in             |
+| [For Loop](#javascript-for-loop)                     | js-for-loop           |
+| [Function](#javascript-function)                     | js-function           |
+| [Immediately Invoked](#javascript-iife)              | js-iife               |
+| [Object Keys](#javascript-object-keys)               | js-object-keys        |
+| [Prototype](#javascript-prototype-function)          | js-prototype-function |
 
 ##### *Javascript Basic Binding*
 
@@ -385,7 +385,7 @@ directory. The location is system specific specific
 
     }
 
-###### Javascript Immediately Invoked Function Expression
+###### <a name="javascript-iife">Javascript Immediately Invoked Function Expression</a>
 
 [Top](#table-of-contents) |
 [Javascript Basic Bindings](#javascript-basic-bindings)
@@ -424,12 +424,12 @@ directory. The location is system specific specific
 
 [Top](#table-of-contents)
 
-| Snippet               | Binding               |
-| --------------------- | --------------------- |
-| Constructor           | js-contructor         |
-| Module                | js-module             |
-| Namespace             | js-namespace          |
-| Singleton             | js-singleton          |
+| Snippet                                        | Binding       |
+| ---------------------------------------------- | ------------- |
+| [Constructor](#javascript-constructor-pattern) | js-contructor |
+| [Module](#javascript-module-pattern)           | js-module     |
+| [Namespace](#javascript-namespace-pattern)     | js-namespace  |
+| [Singleton](#javascript-singleton-pattern)     | js-singleton  |
 
 ##### *Javascript Patterns*
 
@@ -484,6 +484,23 @@ directory. The location is system specific specific
 
     }());
 
+###### Javascript Namespace Pattern
+
+[Top](#table-of-contents) |
+[Javascript Basic Bindings](#javascript-pattern-bindings)
+
+    (function(namespace) {
+
+      'use strict';
+
+      namespace.method = function() {
+
+        // function body
+
+      };
+
+    })(window.namespace = window.namespace || {});
+
 ###### Javascript Singleton Pattern
 
 [Top](#table-of-contents) |
@@ -510,24 +527,6 @@ directory. The location is system specific specific
       return singletonName;
 
     }());
-
-###### Javascript Namespace Pattern
-
-[Top](#table-of-contents) |
-[Javascript Basic Bindings](#javascript-pattern-bindings)
-
-    (function(namespace) {
-
-      'use strict';
-
-      namespace.method = function() {
-
-        // function body
-
-      };
-
-    })(window.namespace = window.namespace || {});
-
 
 ## Author
 
