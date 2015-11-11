@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+${1:methodName}.apply(${2:context}, [${3:args}])
+
+]]></content>
+  <tabTrigger>js-function-apply</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
