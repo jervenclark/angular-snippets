@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+console.warn(${1:obj});
+
+]]></content>
+  <tabTrigger>js-console-warn</tabTrigger>
+  <scope>source.js</scope>
+</snippet>
