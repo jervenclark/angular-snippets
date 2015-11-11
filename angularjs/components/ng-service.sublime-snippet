@@ -16,15 +16,7 @@
 
   ) {
 
-    var service;
-
-    service = {
-      $3: $3
-    };
-
-    return service;
-
-    function ${3:property}() {
+    this.property = function(${3:args}) {
 
       ${0:// function body}
 
