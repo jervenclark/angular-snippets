@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+${1:document}.getAttribute('${2:attribute}');
+
+]]></content>
+  <tabTrigger>js-get-attributes</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

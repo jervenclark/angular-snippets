@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+${1:document}.removeAttribute('${2:attribute}');
+
+]]></content>
+  <tabTrigger>js-remove-attribute</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

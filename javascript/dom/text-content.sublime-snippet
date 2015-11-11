@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+${1:document}.textContent = '${2:content}';
+
+]]></content>
+  <tabTrigger>js-text-content</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

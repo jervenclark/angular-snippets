@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+${1:document}.getElementsByTagName('${2:tag}');
+
+]]></content>
+  <tabTrigger>js-elements-by-class</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

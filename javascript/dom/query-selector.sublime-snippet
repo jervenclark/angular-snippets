@@ -1,0 +1,8 @@
+<snippet>
+  <content><![CDATA[
+${1:document}.querySelector('${2:selector}');
+
+]]></content>
+  <tabTrigger>js-query-selector</tabTrigger>
+  <scope>source.js</scope>
+</snippet>

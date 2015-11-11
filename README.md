@@ -11,9 +11,9 @@ A collection of [Sublime Text](http://www.sublimetext.com/) snippets
       - [Component Snippets List](#angular-component-snippets-list)
     - [Javascript Snippets](#javascript-snippets)
       - [Basic Bindings](#javascript-basic-bindings)
-      - [Basic Snippets List](#javascript-basic-component-snippets-list)
+      - [Basic Snippets List](#javascript-basic-snippets-list)
       - [Pattern Bindings](#javascript-pattern-bindings)
-      - [Pattern Snippets List](#javascript-pattern-component-snippets-list)
+      - [Pattern Snippets List](#javascript-pattern-snippets-list)
   - [Author](#author)
   - [License](#license)
 
