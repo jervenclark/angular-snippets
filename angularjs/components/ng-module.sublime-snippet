@@ -9,6 +9,8 @@
       ${2:dependency}
     ]);
 
+})();
+
 ]]></content>
   <tabTrigger>ng-module</tabTrigger>
   <scope>source.js</scope>
