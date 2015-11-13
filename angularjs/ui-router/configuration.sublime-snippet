@@ -14,8 +14,8 @@
   ];
 
   function Configuration(
-    $stateProvider,
-    $urlRouterProvider
+    \$stateProvider,
+    \$urlRouterProvider
   ) {
 
     \$urlRouterProvider.otherwise("/home");
