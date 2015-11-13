@@ -5,11 +5,11 @@
   'use strict';
 
   angular
-    .module('hoeringdk')
+    .module('${1:app}')
     .config(Configuration);
 
-  Configuration.$inject = [
-    'usSpinnerConfigProvider',
+  Configuration.\$inject = [
+    'usSpinnerConfigProvider'
   ];
 
   function Configuration(
@@ -45,12 +45,11 @@
       color: 'blue'
     });
 
-
   }
 
 })();
 
 ]]></content>
-  <tabTrigger>spinner</tabTrigger>
+  <tabTrigger>ng-spinner-configuration</tabTrigger>
   <scope>source.js</scope>
 </snippet>
